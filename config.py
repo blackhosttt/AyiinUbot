@@ -17,7 +17,7 @@ MSG_PERMIT = (
  ⍟ 𝙹𝙰𝙳𝙸 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙰𝙼𝙿𝙰𝙸 𝙼𝙰𝙹𝙸𝙺𝙰𝙽 𝙶𝚄𝙰 𝙽𝙴𝚁𝙸𝙼𝙰 𝙿𝙴𝚂𝙰𝙽 𝙻𝚄
 ╔═════════════════════╗
 │ㅤㅤ𖣘 𝙿𝙴𝚂𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 𖣘ㅤㅤ
-│ㅤㅤ   𖣘 𝙰𝚈𝙸𝙸𝙽 - 𝚄𝙱𝙾𝚃 𖣘ㅤㅤ
+│ㅤㅤ   𖣘 Mikasa - 𝚄𝙱𝙾𝚃 𖣘ㅤㅤ
 ╚═════════════════════╝
 """
 )
@@ -25,10 +25,10 @@ MSG_PERMIT = (
 
 class Var:
     API_HASH = getenv("API_HASH")
-    API_ID = int(getenv("API_ID", ""))
-    ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
-    ALIVE_TEXT = getenv("ALIVE_TEXT", "Hey, Saya AyiinUbot Dibuat dengan basis pyrogram versi terbaru")
-    BOT_TOKEN = getenv("BOT_TOKEN", "")
+    API_ID = int(getenv("API_ID", "24350480"))
+    ALIVE_PIC = getenv("ALIVE_PIC", "https://files.catbox.moe/baskxf.jpg")
+    ALIVE_TEXT = getenv("ALIVE_TEXT", "Hey, Saya Mikasa Ubot Dibuat dengan basis pyrogram versi terbaru")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7257811101:AAH6GBqDMa1eX3C6mAR_iIbjscsoe1qRJQU")
     BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
     if not BLACKLIST_CHAT:
         BLACKLIST_CHAT = [-1001473548283, -1001675396283]
